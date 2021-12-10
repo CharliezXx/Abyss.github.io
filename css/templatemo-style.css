@@ -281,6 +281,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  
   overflow: hidden;
   background-attachment: fixed;
 }
@@ -366,7 +367,7 @@ ul {
 */
 
 .about-content {
-  height: 150vh;
+  height: 180vh;
   background-color: rgba(45, 58, 75, 0.5);
   padding: 0px 60px;
   position: relative;
@@ -435,7 +436,7 @@ ul {
   background-color: rgba(45, 58, 75, 0.5);
   padding: 0px 60px;
   position: relative;
-  margin: 0 auto;
+  margin: 0 auto ;
 }
 
 .projects-content .heading {
