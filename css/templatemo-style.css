@@ -403,11 +403,12 @@ ul {
 */
 
 .about-content {
-  height: 150vh;
+  height: 200;
   background-color: rgba(45, 58, 75, 0.5);
   padding: 0px 60px;
   position: relative;
   margin: 10 auto;
+  text-align: center;
 }
 
 .about-content .heading {
