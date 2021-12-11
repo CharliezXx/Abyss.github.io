@@ -17,6 +17,7 @@ p {
 
 a {
 	color: #ff6;
+  margin-top: 10px;
 }
 
 a:hover {
@@ -322,7 +323,10 @@ ul {
 	background-color: #455871;
 	position: relative;
 	right: -100px;
-	padding: 30px;
+  left: 100px;
+  border-style: inset;
+  border-color: rgba(45, 58, 75, 0.5);
+	padding: 20px;
 	display: inline-block;
 }
 
@@ -379,6 +383,7 @@ ul {
 }
 
 .about-box-content {
+  
   margin-left: -100px;
   margin-right: 100px;
 }
@@ -390,6 +395,8 @@ ul {
 }
 
 .about-content .about-box-text {
+  border-style: inset;
+  border-color: rgba(45, 58, 75, 0.5);
   background-color: #fff;
   padding: 30px;
   margin-top: 60px;
