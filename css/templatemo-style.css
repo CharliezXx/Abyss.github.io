@@ -288,6 +288,33 @@ ul {
 }
 
 
+/*
+========================
+------Certificates------
+========================
+*/
+.cer_head{
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-top: 80px;
+}
+.cer_head h4{
+  font-weight: 400;
+  font-size: 36px;
+}
+.cer_text{
+  text-transform: uppercase;
+  padding-left: 15%;
+  color: rgb(0, 184, 61);
+}
+.cer_img{
+  padding-top: 10px;
+  padding-left: 5%;
+  
+}
 
 /*
 ========================
