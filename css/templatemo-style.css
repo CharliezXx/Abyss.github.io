@@ -650,7 +650,119 @@ ul {
 ========================================
 */
 
-@media (max-width: 768px){
+
+@media (max-width: 400px){
+  .heading h4 {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .home-content {
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    padding: 0px 30px;
+    width: 150vw;
+  }
+  .home-content .home-box-content {
+    right: 0;
+    margin-bottom: 30px;
+  }
+  .home-content h1 {
+    margin-bottom: 0px;
+    padding-top: 60px;
+    font-size: 22px;
+  }
+  .home-content h1 em {
+    margin-top: 5%;
+    font-size: 36px;
+  }
+  .home-content .left-text {     
+    float: none;     
+    width: auto; 
+  }
+  .home-content .right-image {
+    text-align: center;
+    float: none;
+    margin-top: 30px;
+  }
+  .about-content {
+    height: 200vh;
+    text-align: center;
+    padding: 0px 30px;
+    width: 100vw;
+  }
+  .about-content .heading {
+    padding-top: 10%;
+  }
+  .about-box-content {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .about-box-text {
+    margin-bottom: 30px;
+  }
+  .about-box-content img {
+    position: relative;
+    margin-top: 1px;
+  }
+  .about-content .about-box-text {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin-top: -30px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .projects-content {
+    width: 50vh;
+    height: 120vh;
+    padding: 30px 30px;
+  }
+  .project-item  {
+    padding: 0px 120px;
+  }
+  .project-item img {
+    max-width: 100%;
+  }
+  .projects-content .heading {
+    padding-top: 25%;
+  }
+  .projects-content .owl-carousel {
+    margin: 0;
+    height: 200vh;
+    width: 100%;
+  }
+  .projects-content .text-content {
+    display:inherit;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-content .more-info {
+    padding: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    margin-bottom: 60px;
+  }
+  .contact-content .contat-form {
+    background-color: rgba(250, 250, 250, 0.03);
+    padding: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .contact-content {
+    height: auto;
+    width: 100vw;
+    padding: 0px 30px;
+  }
+  .contact-content .heading {
+    padding-top: 15%;
+  }
+}
+
+
+@media (max-width: 1640px){
   .heading h4 {
     font-size: 22px;
     margin-bottom: 30px;
@@ -684,7 +796,7 @@ ul {
     margin-top: 30px;
   }
   .about-content {
-    height: 150vh;
+    height: 200vh;
     text-align: center;
     padding: 0px 30px;
     width: 100vw;
