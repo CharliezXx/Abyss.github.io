@@ -546,13 +546,14 @@ ul {
 }
 
 .contact-content .heading {
-  padding-top: 35%;
+  padding-top: 5%;
 }
 
 .contact-content .contat-form {
   background-color: rgba(250, 250, 250, 0.03);
-  padding: 30px 80px 30px 30px;
-  margin-right: -50px;
+  padding: 30px 50% 30px 50%;
+  margin-right: -50%;
+  margin-top: 10px;
 }
 
 .contact-content input {
